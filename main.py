@@ -54,9 +54,10 @@ print(f"total price of all items are {totalPrice}")
 # დაწერეთ პროგრამა, რომელიც მომხმარებელს შეეკითხება ხილის სახელს, მანამ სანამ, მომხმარებელი არ შეიყვანს სიტყვას stop,
 #    ამის შემდეგ გამოიტანეთ დიქტის სახით ხილის დასახელება და ველიუ იქნება რამდენჯერაც შეიყვანა ეს ხილი, მაგალითად:
 fruits = {}
-fruit_name = input("Enter your fruit name: ")
 
 while True:
+    fruit_name = input("Enter your fruit name: ")
+
     if fruit_name == "stop":
         break
     elif fruit_name in fruits:
